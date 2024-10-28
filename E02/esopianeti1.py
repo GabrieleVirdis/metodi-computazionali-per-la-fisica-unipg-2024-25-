@@ -40,8 +40,8 @@ plt.scatter( mydf.loc[mydf['discoverymethod']=='Transit', 'pl_orbper'],
 plt.scatter( mydf.loc[mydf['discoverymethod']=='Radial Velocity', 'pl_orbper'],
              mydf.loc[mydf['discoverymethod']=='Radial Velocity', 'pl_bmassj'], color='blue', alpha=0.1, label='Velocità radiale')
 plt.scatter( ss_orbper, ss_bmassj, color='black', label='Sistema solare')
-plt.xlabel('Period [days]',         fontsize=16)
-plt.ylabel(r'Planet Mass [$m_J$]',  fontsize=16)
+plt.xlabel('T [giorni]',         fontsize=16)
+plt.ylabel(r'Massa pianeti [$m_J$]',  fontsize=16)
 plt.xticks(fontsize=14)
 plt.yticks(fontsize=14)
 plt.xscale('log')
